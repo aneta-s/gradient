@@ -1,0 +1,124 @@
+/* /* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: linear-gradient(to right, #c7dac7, #ffb68c);
+}
+.text-3d {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 92px;
+  color: #ff6787;
+  left: 50%;
+  top: 50%;
+	-moz-transform:translate(-50%, 50%);
+	-ms-transform:translate(-50%, 50%);
+	-webkit-transform:translate(-50%, 50%);
+	-o-box-transform:translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+
+  -moz-text-shadow: 0 1px 0 RGB(255, 103, 135), 0 2px 0 rgb(250, 93, 125), 0 3px 0 rgb(245, 83, 115), 0 4px 0 rgb(240, 73, 105), 0 5px 0 rgb(235, 63, 95), 0 6px 0 rgb(230, 53, 85), 0 7px 0 rgb(225, 43, 75), 0 1px 5px rgba(0, 0, 0, 0.05), 0 3px 5px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.15), 0 7px 10px rgba(0, 0, 0, 0.2), 0 10px 15px rgba(0, 0, 0, 0.5);
+  -ms-text-shadow: 0 1px 0 RGB(255, 103, 135), 0 2px 0 rgb(250, 93, 125), 0 3px 0 rgb(245, 83, 115), 0 4px 0 rgb(240, 73, 105), 0 5px 0 rgb(235, 63, 95), 0 6px 0 rgb(230, 53, 85), 0 7px 0 rgb(225, 43, 75), 0 1px 5px rgba(0, 0, 0, 0.05), 0 3px 5px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.15), 0 7px 10px rgba(0, 0, 0, 0.2), 0 10px 15px rgba(0, 0, 0, 0.5);
+	-webkit-text-shadow: 0 1px 0 RGB(255, 103, 135), 0 2px 0 rgb(250, 93, 125), 0 3px 0 rgb(245, 83, 115), 0 4px 0 rgb(240, 73, 105), 0 5px 0 rgb(235, 63, 95), 0 6px 0 rgb(230, 53, 85), 0 7px 0 rgb(225, 43, 75), 0 1px 5px rgba(0, 0, 0, 0.05), 0 3px 5px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.15), 0 7px 10px rgba(0, 0, 0, 0.2), 0 10px 15px rgba(0, 0, 0, 0.5);
+ -o-text-shadow: 0 1px 0 RGB(255, 103, 135), 0 2px 0 rgb(250, 93, 125), 0 3px 0 rgb(245, 83, 115), 0 4px 0 rgb(240, 73, 105), 0 5px 0 rgb(235, 63, 95), 0 6px 0 rgb(230, 53, 85), 0 7px 0 rgb(225, 43, 75), 0 1px 5px rgba(0, 0, 0, 0.05), 0 3px 5px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.15), 0 7px 10px rgba(0, 0, 0, 0.2), 0 10px 15px rgba(0, 0, 0, 0.5);
+text-shadow: 0 1px 0 RGB(255, 103, 135), 0 2px 0 rgb(250, 93, 125), 0 3px 0 rgb(245, 83, 115), 0 4px 0 rgb(240, 73, 105), 0 5px 0 rgb(235, 63, 95), 0 6px 0 rgb(230, 53, 85), 0 7px 0 rgb(225, 43, 75), 0 1px 5px rgba(0, 0, 0, 0.05), 0 3px 5px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.15), 0 7px 10px rgba(0, 0, 0, 0.2), 0 10px 15px rgba(0, 0, 0, 0.5);
+  -moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+
+}
+.text-3d:hover {
+  -moz-text-shadow: 0 1px 0 RGB(254, 142, 123), 0 2px 0 rgb(249, 137, 117), 0 3px 0 rgb(244, 132, 112), 0 4px 0 rgb(239, 127, 107), 0 5px 0 rgb(234, 122, 102), 0 6px 0 rgb(229, 117, 97), 0 7px 0 rgb(224, 102, 92), 0 8px 0 rgb(219, 97, 87),0 9px 0 rgb(214, 92, 82), 0 1px 5px rgba(0, 0, 0, 0.05),0 5px 5px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.15),0 15px 10px rgba(0, 0, 0, 0.2), 0 20px 15px rgba(0, 0, 0, 0.5);
+	-ms-text-shadow:0 1px 0 RGB(254, 142, 123), 0 2px 0 rgb(249, 137, 117), 0 3px 0 rgb(244, 132, 112), 0 4px 0 rgb(239, 127, 107), 0 5px 0 rgb(234, 122, 102), 0 6px 0 rgb(229, 117, 97), 0 7px 0 rgb(224, 102, 92), 0 8px 0 rgb(219, 97, 87),0 9px 0 rgb(214, 92, 82), 0 1px 5px rgba(0, 0, 0, 0.05),0 5px 5px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.15),0 15px 10px rgba(0, 0, 0, 0.2), 0 20px 15px rgba(0, 0, 0, 0.5);
+	-webkit-text-shadow: 0 1px 0 RGB(254, 142, 123), 0 2px 0 rgb(249, 137, 117), 0 3px 0 rgb(244, 132, 112), 0 4px 0 rgb(239, 127, 107), 0 5px 0 rgb(234, 122, 102), 0 6px 0 rgb(229, 117, 97), 0 7px 0 rgb(224, 102, 92), 0 8px 0 rgb(219, 97, 87),0 9px 0 rgb(214, 92, 82), 0 1px 5px rgba(0, 0, 0, 0.05),0 5px 5px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.15),0 15px 10px rgba(0, 0, 0, 0.2), 0 20px 15px rgba(0, 0, 0, 0.5);
+  -o-text-shadow:0 1px 0 RGB(254, 142, 123), 0 2px 0 rgb(249, 137, 117), 0 3px 0 rgb(244, 132, 112), 0 4px 0 rgb(239, 127, 107), 0 5px 0 rgb(234, 122, 102), 0 6px 0 rgb(229, 117, 97), 0 7px 0 rgb(224, 102, 92), 0 8px 0 rgb(219, 97, 87),0 9px 0 rgb(214, 92, 82), 0 1px 5px rgba(0, 0, 0, 0.05),0 5px 5px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.15),0 15px 10px rgba(0, 0, 0, 0.2), 0 20px 15px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px 0 RGB(254, 142, 123), 0 2px 0 rgb(249, 137, 117), 0 3px 0 rgb(244, 132, 112), 0 4px 0 rgb(239, 127, 107), 0 5px 0 rgb(234, 122, 102), 0 6px 0 rgb(229, 117, 97), 0 7px 0 rgb(224, 102, 92), 0 8px 0 rgb(219, 97, 87),0 9px 0 rgb(214, 92, 82), 0 1px 5px rgba(0, 0, 0, 0.05),0 5px 5px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.15),0 15px 10px rgba(0, 0, 0, 0.2), 0 20px 15px rgba(0, 0, 0, 0.5);
+
+	-moz-transform:translate(-51%, 51%);
+	-ms-transform:translate(-51%, 51%);
+	-webkit-transform:translate(-51%, 51%);
+	-o-box-transform:translate(-51%, 51%);
+  transform: translate(-51%, 51%);
+
+  -moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  
+}
+.text1-3d {
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 48px;
+  color: #55cbd3;
+  left: 50%;
+  top: 50%;
+	-moz-transform:translate(-50%, 50%);
+	-ms-transform:translate(-50%, 50%);
+	-webkit-transform:translate(-50%, 50%);
+	-o-box-transform:translate(-50%, 50%);
+  transform: translate(-50%, 50%);
+
+  -moz-text-shadow: 0 1px 0 rgb(85, 203, 211), 0 2px 0 rgb(75, 193, 201), 0 3px 0 rgb(65, 183, 191), 0 4px 0 rgb(55, 173, 181), 0 5px 0 rgb(45, 163, 171), 0 6px 0 rgb(35, 153, 161), 0 7px 0 rgb(25, 143, 151), 0 1px 5px rgba(0, 0, 0, 0.05), 0 3px 5px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.15), 0 7px 10px rgba(0, 0, 0, 0.2), 0 10px 15px rgba(0, 0, 0, 0.5);
+	-ms-text-shadow: 0 1px 0 rgb(85, 203, 211), 0 2px 0 rgb(75, 193, 201), 0 3px 0 rgb(65, 183, 191), 0 4px 0 rgb(55, 173, 181), 0 5px 0 rgb(45, 163, 171), 0 6px 0 rgb(35, 153, 161), 0 7px 0 rgb(25, 143, 151), 0 1px 5px rgba(0, 0, 0, 0.05), 0 3px 5px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.15), 0 7px 10px rgba(0, 0, 0, 0.2), 0 10px 15px rgba(0, 0, 0, 0.5);
+	-webkit-transform: 0 1px 0 rgb(85, 203, 211), 0 2px 0 rgb(75, 193, 201), 0 3px 0 rgb(65, 183, 191), 0 4px 0 rgb(55, 173, 181), 0 5px 0 rgb(45, 163, 171), 0 6px 0 rgb(35, 153, 161), 0 7px 0 rgb(25, 143, 151), 0 1px 5px rgba(0, 0, 0, 0.05), 0 3px 5px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.15), 0 7px 10px rgba(0, 0, 0, 0.2), 0 10px 15px rgba(0, 0, 0, 0.5);
+	-o-box-transform: 0 1px 0 rgb(85, 203, 211), 0 2px 0 rgb(75, 193, 201), 0 3px 0 rgb(65, 183, 191), 0 4px 0 rgb(55, 173, 181), 0 5px 0 rgb(45, 163, 171), 0 6px 0 rgb(35, 153, 161), 0 7px 0 rgb(25, 143, 151), 0 1px 5px rgba(0, 0, 0, 0.05), 0 3px 5px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.15), 0 7px 10px rgba(0, 0, 0, 0.2), 0 10px 15px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px 0 rgb(85, 203, 211), 0 2px 0 rgb(75, 193, 201), 0 3px 0 rgb(65, 183, 191), 0 4px 0 rgb(55, 173, 181), 0 5px 0 rgb(45, 163, 171), 0 6px 0 rgb(35, 153, 161), 0 7px 0 rgb(25, 143, 151), 0 1px 5px rgba(0, 0, 0, 0.05), 0 3px 5px rgba(0, 0, 0, 0.15), 0 5px 10px rgba(0, 0, 0, 0.15), 0 7px 10px rgba(0, 0, 0, 0.2), 0 10px 15px rgba(0, 0, 0, 0.5);
+
+  -moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.text1-3d:hover {
+  -moz-text-shadow: 0 1px 0 RGB(199, 218, 199), 0 2px 0 rgb(194, 213, 194), 0 3px 0 rgb(189, 208, 189), 0 4px 0 rgb(184, 203, 184),0 5px 0 rgb(179, 198, 179), 0 6px 0 rgb(174, 193, 174), 0 7px 0 rgb(169, 188, 169), 0 8px 0 rgb(164, 183, 164), 0 9px 0 rgb(159, 179, 159), 0 1px 5px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.15), 0 15px 10px rgba(0, 0, 0, 0.2), 0 20px 15px rgba(0, 0, 0, 0.5);
+	-ms-text-shadow: 0 1px 0 RGB(199, 218, 199), 0 2px 0 rgb(194, 213, 194), 0 3px 0 rgb(189, 208, 189), 0 4px 0 rgb(184, 203, 184),0 5px 0 rgb(179, 198, 179), 0 6px 0 rgb(174, 193, 174), 0 7px 0 rgb(169, 188, 169), 0 8px 0 rgb(164, 183, 164), 0 9px 0 rgb(159, 179, 159), 0 1px 5px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.15), 0 15px 10px rgba(0, 0, 0, 0.2), 0 20px 15px rgba(0, 0, 0, 0.5);
+	-webkit-transform: 0 1px 0 RGB(199, 218, 199), 0 2px 0 rgb(194, 213, 194), 0 3px 0 rgb(189, 208, 189), 0 4px 0 rgb(184, 203, 184),0 5px 0 rgb(179, 198, 179), 0 6px 0 rgb(174, 193, 174), 0 7px 0 rgb(169, 188, 169), 0 8px 0 rgb(164, 183, 164), 0 9px 0 rgb(159, 179, 159), 0 1px 5px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.15), 0 15px 10px rgba(0, 0, 0, 0.2), 0 20px 15px rgba(0, 0, 0, 0.5);
+	-o-box-transform: 0 1px 0 RGB(199, 218, 199), 0 2px 0 rgb(194, 213, 194), 0 3px 0 rgb(189, 208, 189), 0 4px 0 rgb(184, 203, 184),0 5px 0 rgb(179, 198, 179), 0 6px 0 rgb(174, 193, 174), 0 7px 0 rgb(169, 188, 169), 0 8px 0 rgb(164, 183, 164), 0 9px 0 rgb(159, 179, 159), 0 1px 5px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.15), 0 15px 10px rgba(0, 0, 0, 0.2), 0 20px 15px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 1px 0 RGB(199, 218, 199), 0 2px 0 rgb(194, 213, 194), 0 3px 0 rgb(189, 208, 189), 0 4px 0 rgb(184, 203, 184),0 5px 0 rgb(179, 198, 179), 0 6px 0 rgb(174, 193, 174), 0 7px 0 rgb(169, 188, 169), 0 8px 0 rgb(164, 183, 164), 0 9px 0 rgb(159, 179, 159), 0 1px 5px rgba(0, 0, 0, 0.05), 0 5px 5px rgba(0, 0, 0, 0.15), 0 10px 10px rgba(0, 0, 0, 0.15), 0 15px 10px rgba(0, 0, 0, 0.2), 0 20px 15px rgba(0, 0, 0, 0.5);
+  
+	-moz-transform:translate(-51%, 51%);
+	-ms-transform:translate(-51%, 51%);
+	-webkit-transform:translate(-51%, 51%);
+	-o-box-transform:translate(-51%, 51%);
+  transform: translate(-51%, 51%);
+  -moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.font2 {
+  color: #fef9f6;
+  font-family: "Maven Pro", sans-serif;
+  font-size: 18px;
+  padding: 15px;
+}
+
+#capital {
+  font-size: 14px;
+}
+
+.font3 {
+  font-family: "Prompt", sans-serif;
+  font-size: 16px;
+}
+ */
