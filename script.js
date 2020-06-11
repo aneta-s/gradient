@@ -27,7 +27,7 @@ setRandomGradient(firstColor, secondColor);
 };
 
 
-//6. DRY
+//6. DRYF
 function setGradient(){
     body.style.background = 
     "linear-gradient(to right, "
